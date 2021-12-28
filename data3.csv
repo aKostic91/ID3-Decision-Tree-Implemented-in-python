@@ -1,0 +1,15 @@
+Origin,Age,Position,Last season form,Play
+England,LessThan26,Defender,Yes,No
+Out of Europe,LessThan26,Defender,Yes,Yes
+Europe,LessThan26,Defender,No,No
+Europe,LessThan26,Defender,Yes,Yes
+Out of Europe,26OrMore,Midfielder,Yes,No
+Europe,LessThan26,Midfielder,No,Yes
+Out of Europe,LessThan26,Midfielder,No,Yes
+England,LessThan26,Midfielder,No,Yes
+Europe,26OrMore,Forward,Yes,No
+Out of Europe,26OrMore,Forward,Yes,No
+England,LessThan26,Forward,No,No
+England,LessThan26,Midfielder,No,Yes
+Out of Europe,26OrMore,Midfielder,No,No
+

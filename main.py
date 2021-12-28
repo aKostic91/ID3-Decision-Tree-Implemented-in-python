@@ -74,7 +74,8 @@ def Information_Gain(dataset, feature):
     Distinct = list(set(feature))
     Info_Gain = 0
     for i in Distinct:
-        Info_Gain = Info_Gain + feature.count(i) / len(feature) * entropy(dataset, feature, i)
+        Attribute_Gain = feature.count(i) / len(feature) * entropy(dataset, feature, i)
+        Info_Gain = Info_Gain + Attribute_Gain
     Info_Gain = base_entropy(dataset) - Info_Gain
     return Info_Gain
 
@@ -152,7 +153,7 @@ def construct_tree(dataset, tree):
 # main function
 # -----------------------------------------------------------------------
 def main():
-    df = pd.read_csv("data1.csv")
+    df = pd.read_csv("data3.csv")
     tree = dict()
     result = construct_tree(df, tree)
     for key, value in result.items():
